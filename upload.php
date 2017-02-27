@@ -3,7 +3,6 @@
 	$i = 0;
 	#Analisa cada arquivo
 	foreach ($_FILES["arquivos"]["error"] as $key => $error) {
-	   	$$key = $error;
 	    # Definir o diretório onde salvar os arquivos.
 	    $destino = "files/" . $_FILES["arquivos"]["name"][$i];
 	   
