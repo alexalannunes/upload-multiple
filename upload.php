@@ -14,6 +14,5 @@
 	    echo '<br>',$destino;
 	    #Próximo arquivo a ser analisado
 	    $i++;
-
 	}
 ?>
